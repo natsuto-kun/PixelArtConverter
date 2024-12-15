@@ -154,7 +154,7 @@ const PixelArtConverter = () => {
 
   return (
     <div>
-      <h1 className="h-test">画像をドット絵風に変換 (透明対応)</h1>
+      <h1 className="h-test">画像をドット絵風に変換</h1>
       <CustomFileInput onFileChange={handleFileUpload} />
       <button className="test" onClick={handleConvert}>変換</button>
       <canvas ref={canvasRef} style={{ display: "none" }} />

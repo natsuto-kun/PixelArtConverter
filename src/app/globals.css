@@ -14,8 +14,26 @@
   }
 }
 
+@font-face {
+  font-family: 'BestTen-CRT';
+  src: url('/fonts/BestTen-CRT.otf') format('opentype'); /* フォント形式を 'opentype' に指定 */
+  font-weight: normal; /* 通常の太さ */
+  font-style: normal; /* 通常のスタイル */
+}
+
+@font-face {
+  font-family: 'BestTen-DOT';
+  src: url('/fonts/BestTen-DOT.otf') format('opentype'); /* フォント形式を 'opentype' に指定 */
+  font-weight: normal; /* 通常の太さ */
+  font-style: normal; /* 通常のスタイル */
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'BestTen-CRT';
+}
+
+a {
+  font-family: 'BestTen-CRT';
 }

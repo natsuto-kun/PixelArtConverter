@@ -1,0 +1,61 @@
+input {
+    all: unset;
+  }
+
+.custom-file-button {
+    display: inline-block; /* ボタンをインラインで水平に配置 */
+  padding: 10px 0; /* ボタンの内側の余白 */
+  font-size: 16px; /* 文字サイズ */
+  text-align: center; /* テキストを中央揃え */
+  white-space: nowrap; /* テキストを折り返さない */
+  vertical-align: middle;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 200px;
+	margin: 20px auto 8px auto;
+	padding: 1rem 0;
+	font-weight: bold;
+	background: none;
+	border: 2px solid rgb(117, 166, 83);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+	transition: 1s;
+	font-family: 'BestTen-CRT';
+	color: rgb(117, 166, 83);
+}
+
+.custom-file-button:hover {
+    color: rgb(117, 166, 83);
+}
+
+.h-test {
+	font-family: 'BestTen-CRT';
+	font-weight: 500;
+	font-size: 28px;
+}
+
+.test {
+    display: inline-block; /* ボタンをインラインで水平に配置 */
+  padding: 10px 20px; /* ボタンの内側の余白 */
+  font-size: 16px; /* 文字サイズ */
+  text-align: center; /* テキストを中央揃え */
+  white-space: nowrap; /* テキストを折り返さない */
+  vertical-align: middle;
+	vertical-align: middle;
+	text-decoration: none;
+	width: 200px;
+	margin: auto auto 20px auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+	background: none;
+	color: rgb(117, 166, 83);
+	border: 2px solid rgb(117, 166, 83);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+	transition: 0.5s;
+	font-family: 'BestTen-CRT';
+}
+
+.test:hover {
+    color: rgb(117, 166, 83);
+}

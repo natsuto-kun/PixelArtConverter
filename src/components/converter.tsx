@@ -37,7 +37,7 @@ const PixelArtConverter = () => {
   );
   const [resultImage, setResultImage] = useState<string | null>(null);
 
-  const DOT_SIZE = 2;
+  const DOT_SIZE = 4;
   const SCALE = 0.5;
   const PALETTE: [number, number, number][] = [
     [172, 242, 121],
